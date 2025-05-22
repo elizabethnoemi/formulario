@@ -38,19 +38,7 @@
     <h2>Ubicación del Destino</h2>
     <div id="map"></div>
 
-    <script>
-        function initMap() {
-            var ubicacion = {lat: -34.603722, lng: -58.381592}; 
-            var mapa = new google.maps.Map(document.getElementById('map'), {
-                zoom: 10,
-                center: ubicacion
-            });
-            var marcador = new google.maps.Marker({
-                position: ubicacion,
-                map: mapa
-            });
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap"></script>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13120.362102103816!2d-58.7441376!3d-34.7028966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bceaa32b47e7ab%3A0x11da0acb1d5d1dae!2sVeterinaria%20Araiam!5e0!3m2!1ses!2sar!4v1747937041718!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </body>
 </html>
